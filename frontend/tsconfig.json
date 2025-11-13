@@ -15,7 +15,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["vitest/globals"]   // 👈 Add this line
+    "types": ["vitest/globals","node"]   // 👈 Add this line
   },
   "include": ["src", "vitest.config.ts"]
 }
